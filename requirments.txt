@@ -1,0 +1,19 @@
+1.Extract data -> Transform Data -> Load data
+	In Transform	->Unpivot date
+			->Add year column in Text
+			->Make value in fixed decimal
+			->Convert date in date type
+			->Check for error or nulls
+
+2.After loading data we need to mock the dashboard(know the requirements of stakeholders)
+	Since client(Stakeholder):(What client want to see in dashboard)
+		->KPI(Key performance indicators) 
+			key 1:What is my income and what percent is my expense
+			key 2:Timeline wise Income, saving and Expences, networth 2019 vs 2020
+		->Static KPIs
+			What is my income and what percent is my expense
+		->I want know where my expenses going(pie chart) month wise
+		->I want check whether inc in my income is inc of saving and expense indicator
+		->Detailed statement(mean like tables)…..
+
+3.
